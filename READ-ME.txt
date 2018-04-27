@@ -1,0 +1,45 @@
+INSOMNIA by Barbara Guo and Jerry Zhao
+
+A sleepy character, incapable of falling asleep, travels a world in perpetual night. 
+Implemented with original graphics, each level is a different puzzle. As the player your goal is the reach the end of the level where a bed (save point) awaits. As the player tries to sleep in the bed a new level is loaded. Each level itself is composed of various layers that when drawn together create an indepth atmosphere of gameplay. Upon reaching the end the player will be taken back to the main menu.
+
+Players move using the following controls:
+Left and right arrow keys
+Space bar for jump
+Up and Down arrows to climb
+X to interact with light sources and ropes
+R to reset the current level
+A to skip current level (Testing purposes only)
+
+Menu:
+Play - Will continue the game from the start of the last played level
+Help - Shows the key configuration for the game
+Exit - Exits the game
+ 
+Features included:
+
+1.Timed light sources with shrinking radius. 
+The light sources enable the player to traverse around each level but only in an outlined space. Objects and walls not immediately 
+outside the radius of light are considered void, and hitbox detection does not come into effect. The timed light sources means
+that the player's visibility and range of movement are gradually constricted, forcing him/her to complete the level under a time limit
+and adding a more interactive feel to the game.
+
+2.The lamp
+The lamp is basically a larger light source, with a greater radius. It too is subject to a shrinking radius but allows the user more
+time to complete tasks. The lamp is a stationary object and light sources may be place into a lamp with the interact ("x") key.
+
+3.Rope
+The rope allows the player to climb up and down. The start and end of the rope are marked on the character grid as 'Q' and 'R' respectively. Players can interact with the rope using the 'x' key and then use up and down arrows to climb.
+
+4.Conveyor
+The conveyor moves light sources in a straight line horizontally or vertically. It does so by getting the start and end points from the character grid
+(marked by 'C' and 'Y' respectively). While the light sources are on the conveyor the player cannot remove them. The conveyor allows for more variety in puzzles. 
+(Note: Only one conveyor allowed per level)
+
+5.Bed
+The bed acts as a save point for the player. The bed also serves to build upon the theme and reflect the title "Insomnia". 
+
+6.Level selection menu
+This menu is only accessible through game play as the main menu play buttons resumes the player from where they left off. Only levels that have been passed are accessible.
+
+ 
